@@ -1,5 +1,7 @@
 import React from "react";
 import { AiOutlineHome } from 'react-icons/ai'
+import { HiOutlineDocumentText } from "react-icons/hi";
+import { HiOutlineDocumentDuplicate } from "react-icons/hi";
 import { Link } from "react-router-dom";
 
 const Navbar = ({ show }) => {
@@ -15,8 +17,14 @@ const Navbar = ({ show }) => {
                 </li>
 
                 <li className="sidenavLi">
-                    <Link to="/homeDois" className="active Link">
-                        Home dois
+                    <Link to="/Atividades" className="active Link">
+                        <HiOutlineDocumentText />Atividades
+                    </Link>
+                </li>
+
+                <li className="sidenavLi">
+                    <Link to="/Boletim" className="active Link">
+                        <HiOutlineDocumentDuplicate />Boletim
                     </Link>
                 </li>
             </ul>
