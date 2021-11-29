@@ -18,7 +18,7 @@ const Navbar = ({ show }) => {
 
                 <li className="sidenavLi">
                     <Link to="/Atividades" className="active Link">
-                        <HiOutlineDocumentText />Atividades
+                        <HiOutlineDocumentText />Chat
                     </Link>
                 </li>
 
