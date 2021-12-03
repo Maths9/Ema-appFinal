@@ -18,7 +18,8 @@ const Login = (props) => {
     return (
         <section className="login">
             <div className="loginContainer">
-
+                <a class="btnVoltar" role="button" data-toggle="collapse" href="/" aria-expanded="false" aria-controls="collapseExample">Voltar</a>
+                
                 <h1 className="Professor">Professor</h1>
                 
                 <div className="cadastro">

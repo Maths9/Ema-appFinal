@@ -124,7 +124,13 @@ button {
   justify-content: center;
   padding: 5vh;
 }
-
+.btnVoltar{
+  text-decoration: none;
+    color: black;
+    
+    top: 225px;
+    position: absolute;
+}
 .Professor,
 .Aluno {
   text-transform: capitalize;
