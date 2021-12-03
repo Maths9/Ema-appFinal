@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-import FormularioCadastro from './FormularioCadastro'
+import FormularioCadastro from '../Components/FormularioCadastro'
 import firebase from 'firebase'
 
 
