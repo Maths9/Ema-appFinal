@@ -2,7 +2,7 @@
 const HomeAluno = () =>{
     return(
         <div>
-            <h1>Teste da Atividades </h1>
+            <h1>Teste do Chat </h1>
         </div>
     )
 }
