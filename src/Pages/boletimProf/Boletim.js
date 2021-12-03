@@ -1,3 +1,4 @@
+
 const HomeAluno = () =>{
     return(
         <div>
@@ -5,5 +6,6 @@ const HomeAluno = () =>{
         </div>
     )
 }
+
 
 export default HomeAluno;

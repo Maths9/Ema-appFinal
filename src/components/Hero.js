@@ -4,7 +4,7 @@ import { GiHamburgerMenu } from 'react-icons/gi'
 import { BrowserRouter, BrowserRouter as Router, Route } from 'react-router-dom';
 import HomeAluno from '../Pages/HomeAluno';
 import Atividades from '../Pages/Atividades';
-import Boletim from '../Pages/Boletim';
+import Boletim from '../Pages/boletimProf/Boletim';
 
 const Hero = ({ handleLogout }) => {
 
